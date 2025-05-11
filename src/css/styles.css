@@ -22,3 +22,53 @@
   .gallery-image:hover {
     scale: 1.05;
   }
+
+  /* Form genel yapısı */
+.feedback-form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 24px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Etiketler */
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Giriş alanları */
+.feedback-form input,
+.feedback-form textarea {
+  margin-top: 6px;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  resize: vertical;
+}
+
+/* Gönder butonu */
+.feedback-form button {
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #3f51b5;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.feedback-form button:hover {
+  background-color: #303f9f;
+}
